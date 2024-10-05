@@ -1,2 +1,2 @@
-# DailySim-Public
-Public Version of DailySim, my financial projection software.
+# DailySim
+Project to project daily account balances using double accounting methods and accurate modeling of loans.

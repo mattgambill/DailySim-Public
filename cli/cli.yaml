@@ -1,0 +1,22 @@
+start_date: 
+  10/01/2024
+end_date: 
+  04/16/2027
+accounts:
+  ./cli/accounts.csv
+
+fast_payoff_enabled: True
+
+max_checking_balance: 20000
+
+payments:
+  extra_payment1:
+    date:   1/16/2025
+    from:   CHECKING_NAME
+    to:     CreditCard1
+    amount: 0
+  
+purchases:
+  big_purchase:
+    date:   10/10/2025
+    amount: 11000
