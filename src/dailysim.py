@@ -193,8 +193,6 @@ class DailySim:
 
     def get_income(self, day) -> float:
         income = 0.0
-        if (day.month == 4) and (day.day == 1) and (day.year > 2026):
-            self.ca.r['CA_EMPLOYER']._amount *= 1.05
         for revenue_account in self._get_er_accounts('REVENUE'):
             if revenue_account.get_balance() > 0:
                 income += revenue_account.get_balance()

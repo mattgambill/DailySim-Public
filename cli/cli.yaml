@@ -12,7 +12,7 @@ max_checking_balance: 20000
 payments:
   extra_payment1:
     date:   1/16/2025
-    from:   CHECKING_NAME
+    from:   CHGF
     to:     CreditCard1
     amount: 0
   
